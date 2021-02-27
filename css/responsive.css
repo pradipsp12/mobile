@@ -68,7 +68,7 @@
 	display:block;
 }
 }
-@media screen and (min-width: 380px) and (max-width:766px){
+@media screen and (min-width: 360px) and (max-width:766px){
 .align{
 	text-align:center !important;
 /*    overflow: hidden;*/
