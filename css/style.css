@@ -1,0 +1,293 @@
+/*================================================
+common css
+===================================================*/
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.pad-clr {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+/*===============================================
+    font-face-css
+=================================================*/
+@font-face {
+    font-family: firstfont;
+    src: url(../Asap-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: secondfont;
+    src: url(../Asap-Regular.ttf);
+}
+
+@font-face {
+    font-family: thirdfont;
+    src: url(../Asap-Italic.ttf);
+}
+
+@font-face {
+    font-family: forthfont;
+    src: url(../Asap-Bold.ttf);
+}
+
+/*==============================================
+top-content-css
+================================================*/
+.top-cont {
+    height: 1014px;
+    background: url(../top-back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.top-logo {
+    margin-top: 40px;
+    float: left;
+}
+
+.the-lab {
+    font-size: 20px;
+    color: white;
+    font-family: firstfont;
+    float: left;
+    padding: 40px 10px;
+    ;
+}
+
+.tp-tx {
+    font-size: 40px;
+    color: white;
+    /* display:block; */
+    padding-top: 260px;
+}
+
+.tp-line {
+    font-family: thirdfont;
+    font-size: 14px;
+    color: white;
+    padding-top: 45px;
+}
+
+.butn {
+    color: white;
+    font-family: firstfont;
+    background: #49b9e6;
+    padding: 10px 25px;
+    margin-top: 35px;
+}
+
+.baner-down {
+    width: 100%;
+    min-height: 210px;
+    background: #0084b8;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    top: 267px;
+    opacity: 50%;
+}
+
+.mobile {
+    position: relative;
+    bottom: 620px;
+    left: 0px;
+    z-index: 9999;
+}
+
+.baner-ftr-tx {
+    color: white;
+    font-size: 14px;
+    padding-top: 100px;
+    float: left;
+}
+
+/*======================================================
+social media-2
+========================================================*/
+.social {
+    color: black;
+    background: white;
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    /* z-index:9999; */
+}
+
+.down {
+    margin-top: 44px;
+    /* z-index:9999; */
+    /* height:210px; */
+}
+
+/*================================================
+            circle-content-css
+==========================================*/
+.sec2-cnt-fld {
+    background: #0084b8;
+}
+
+.box1 img {
+    margin: auto;
+}
+
+.mobile-hg {
+    height: 0px;
+}
+
+.box1 {
+    text-align: center;
+}
+
+.box1 img {}
+
+.box-hed {
+    color: white;
+    font-size: 30px;
+    font-family: firstfont;
+}
+
+.box-ln {
+    color: white;
+    font-size: 14px;
+}
+
+.left {
+    padding-top: 140px;
+    margin: auto;
+    display: block;
+}
+
+.sec3-hed {
+    font-size: 40px;
+    font-family: firstfont;
+    /* text-align:center; */
+    padding-top: 140px;
+}
+
+.sec3-ln {
+    font-size: 16px;
+
+}
+
+.comment {
+    width: 80%;
+    background: #ecf0f1;
+    height: 225px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.comment img {
+    float: right;
+    position: relative;
+    left: 40px;
+    bottom: 15px;
+}
+
+.comment-ln {
+    font-size: 14px;
+    padding: 40px;
+}
+
+.writer {
+    color: #26aae6;
+    font-size: 18px;
+    font-family: secondfont;
+    padding: 20px;
+}
+
+.box2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sec5-hed {
+    font-size: 30px;
+    color: black;
+    font-family: firstfont;
+}
+
+.sec5-midline {
+    font-size: 20px;
+    color: #b4b8b8;
+    font-family: thirdfont;
+
+}
+
+.sec5-line {
+    font-size: 16px;
+    color: #7b7d7e;
+    font-family: secondfont;
+    padding: 20px;
+}
+
+.sec5-more {
+    font-size: 14px;
+    color: #00a3e4;
+    font-family: secondfont;
+}
+
+.sec5 {
+    background: #ecf0f1;
+}
+
+.sec6-tx {
+    text-align: center;
+    color: white;
+    font-family: forthfont;
+    font-size: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sec6 {
+    background: #f1c40f;
+}
+
+.sec7 {
+    background: #d8af0c;
+}
+
+.box3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box3 img {
+    float: left;
+}
+
+.box3-1st {
+    padding-left: 50px;
+}
+
+.ftr-hed {
+    font-size: 25px;
+    font-family: forthfont;
+    color: white;
+}
+
+.ftr-mail {
+    font-size: 20px;
+    font-family: secondfont;
+    color: white;
+}
+.triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+    }
